@@ -24,8 +24,8 @@ const customFulfillmentProvider = {
 
 module.exports = {
   projectConfig: {
-    redis_url: redis://red-cri0f3tumphs73cav7lg:6379,
-    database_url: postgresql://medusa_db_9k4q_user:KXb5FEwRmEeB3kxf4iBwtglDyert1mPg@dpg-crhvp9jtq21c7384ar40-a.oregon-postgres.render.com/medusa_db_9k4q,
+    redis_url: "redis://red-cri0f3tumphs73cav7lg:6379",
+    database_url: "postgresql://medusa_db_9k4q_user:KXb5FEwRmEeB3kxf4iBwtglDyert1mPg@dpg-crhvp9jtq21c7384ar40-a.oregon-postgres.render.com/medusa_db_9k4q",
     database_type: "postgres",
     // store_cors: STORE_CORS,
     // admin_cors: ADMIN_CORS,
